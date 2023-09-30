@@ -8,10 +8,6 @@
   height: 100px;
   background-color: black;
   justify-content: space-between;
-  /* display: flex;
-  flex-direction: row;
-  justify-content:end;
- align-items: end; */
   color: white;
   display: flex;
   padding: 20px;
@@ -186,139 +182,6 @@
   align-items: center;
   border: white;
 }
-/* .section-IV {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 282px;
-  background-color: #06cd98;
-  color: white;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%;
-}
-
-.earn_points {
-  width: 100%;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 122.4px 58.13px 0px 64px;
-}
-span {
-  color: #06cd98;
-  font-family: Montserrat;
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  background-color: black;
-}
-
-.middle_2 {
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 18px;
-  color: white;
-  border-radius: 9999px;
-  border: 2px solid #06cd98;
-  width: 126px;
-  height: 56px;
-  background-color: green;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border: white;
-}
-
-.section-V {
-  /* display: flex;
-  align-items: center;
-  gap: 282px;
-  background-color: black;
-  color: white;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-shrink: 0; */
-  /* display: flex; */
-/* width: 1440px; */
-/* height: 1225px;
-padding: 122.4px 58.13px 0px 64px; */
-/* flex-direction: row; */
-/* justify-content: space-between; */
-/* align-items: flex-start; */
-/* gap: 95.98px;
-flex-shrink: 0;
-background-color: red; */
-/* align-items: center; */
-/* display: flex; 
-justify-content: center;  */
-/* align-items: center; */
-/* flex-direction: row; 
-} */
-
-/* .subject {
-  display: flex;
-  align-items: center;
-  gap: 282px;
-  background-color: black;
-  color: white;
-  justify-content: space-between;
-  flex-direction: row;
-} */
-/* .number {
-  color: white;
-  font-family: Inter;
-  font-size: 200px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 10px;
-  letter-spacing: -0.16px;
-  align-items:start;
-  display:flex;
-  flex-direction: column; 
-  text-align: start;
-} */
-/* .tiktokvideo {
-width: 800px;
-height: 1000px;
-align-items: center;
-display: flex;
-flex-direction: column;
-text-align: center;
-
-
-}
-.active {
-  color: #FFF;
-font-family: Montserrat;
-font-size: 100px;
-font-style: normal;
-font-weight: 900;
-line-height: 128px;
-letter-spacing: -0.16px;
-}
-.help {
-  color: #FFF;
-font-family: Montserrat;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 22.4px; 
-} */
-
 .section_IV {
   width: 100%;
 }
@@ -341,7 +204,7 @@ line-height: 22.4px;
   font-size: 90px;
   font-style: normal;
   font-weight: 800;
-  line-height: 120%; /* 96px */
+  line-height: 120%;
   display: flex;
   justify-content: space-between;
 }
@@ -380,7 +243,7 @@ line-height: 22.4px;
   font-size: 360px;
   font-style: normal;
   font-weight: 900;
-  line-height: 128px; /* 41.694% */
+  line-height: 128px;
   letter-spacing: -0.16px;
   background-image: url(https://s3-alpha-sig.figma.com/img/80f7/da02/388c5435bff1a4a2b962be0509d776eb?Expires=1696809600&Signature=G3yUyCADog1OMO-BkQNviMGeFKuaBvjZW~hZQRXETDDJ3vns2pbqTTaOrMX3dWuk7MSQQh~1supF~rMP6u56wJ-iX~yC9axw83gyjae1S2sYJ8m8-3Snx3P2edapzO4cyC6KaW4sC6Q4yikluOkN2wNETniLekxGecu8P0jvIgChSYgmegZCaiQhaCedjCdeTQXVda67~K3JP7z6FhtJ~8pwr-FkC2gJEmbSbAJcgfw5XiFvSKzxI~mPOfmimGprleDxZcqXJ2w9d8UYD8gtrjEZVXR27oiSmSOMAKWb7eOMH1N6~Iz71EU8~HAnFSXBV2tgzM-QXtNE1NvK~M8Y~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
   background-repeat: no-repeat;
@@ -405,7 +268,7 @@ line-height: 22.4px;
   font-size: 70px;
   font-style: normal;
   font-weight: 900;
-  line-height: 128px; /* 128% */
+  line-height: 128px;
   letter-spacing: -0.16px;
   width: 100%;
   height: 256px;
@@ -423,16 +286,15 @@ line-height: 22.4px;
 .tokenomics {
   background: #000;
   width: 100%;
-  /* height: 991px; */
   color: #fff;
 }
-.Tokenomics-Done{
+.Tokenomics-Done {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 90px;
   font-style: normal;
   font-weight: 900;
-  line-height: 128px; /* 145.455% */
+  line-height: 128px;
   letter-spacing: -0.16px;
   text-align: center;
   padding-bottom: 20px;
@@ -442,15 +304,12 @@ line-height: 22.4px;
 }
 .about {
   display: flex;
-  /* justify-content: center; */
   gap: 20px;
   width: 100%;
-  /* align-items: center; */
   background-color: black;
 }
 .spongy {
   padding-left: 100px;
-  
 }
 .Watch {
   color: #fff;
@@ -458,7 +317,7 @@ line-height: 22.4px;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100px; /* 142.857% */
+  line-height: 100px;
   letter-spacing: -0.16px;
   text-align: center;
   align-items: center;
@@ -486,14 +345,12 @@ line-height: 22.4px;
   font-size: 70px;
   font-style: normal;
   font-weight: 900;
-  line-height: 100px; /* 142.857% */
+  line-height: 100px;
   letter-spacing: -0.16px;
   text-align: center;
 }
 .section_V {
   width: 100%;
-
-  
 }
 .table {
   display: flex;
@@ -538,7 +395,7 @@ line-height: 22.4px;
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
-  line-height: 64px; /* 108.475% */
+  line-height: 64px;
   letter-spacing: -0.64px;
   width: 100%;
 }
@@ -548,7 +405,7 @@ h1 {
   font-size: 66px;
   font-style: normal;
   font-weight: 700;
-  line-height: 61.6px; /* 93.333% */
+  line-height: 61.6px;
   letter-spacing: -0.56px;
   padding-bottom: 20px;
   width: 100%;
@@ -557,7 +414,6 @@ h1 {
 .section_VI {
   width: 100%;
   background-color: #000;
-  /* min-height: 180vh; */
 }
 .tiktok_fy {
   display: flex;
@@ -572,7 +428,7 @@ h1 {
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
-  line-height: 64px; /* 106.667% */
+  line-height: 64px;
   letter-spacing: -0.64px;
   width: 100%;
   padding: 20px;
@@ -583,7 +439,7 @@ h1 {
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 147.368% */
+  line-height: 28px;
   width: 100%;
   padding: 20px;
 }
@@ -619,7 +475,7 @@ h1 {
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
-  line-height: 44px; /* 115.789% */
+  line-height: 44px;
   letter-spacing: -0.4px;
   padding-left: 30px;
   padding-right: 10px;
@@ -638,17 +494,16 @@ h1 {
   font-size: 10px;
   font-style: normal;
   font-weight: 200;
-  line-height: 27.5px; /* 144.737% */
+  line-height: 27.5px;
   padding-left: 30px;
   padding-right: 10px;
 }
 .tiktok_followers {
-  /* color: #FFF; */
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 200;
-  line-height: 27.5px; /* 152.778% */
+  line-height: 27.5px;
   color: #fff;
   padding-left: 30px;
   padding-right: 10px;
@@ -669,8 +524,6 @@ h1 {
   color: #fff;
 }
 
-
-
 section_VII {
   display: flex;
   align-items: flex-start;
@@ -682,12 +535,12 @@ section_VII {
   font-size: 70px;
   font-style: normal;
   font-weight: 900;
-  line-height: 120%; /* 96px */
+  line-height: 120%;
   padding: 20px;
   gap: 70px;
-  background-color:#06cd98;
+  background-color: #06cd98;
 }
-.your_product{
+.your_product {
   color: #000;
 }
 .run {
@@ -701,7 +554,7 @@ section_VII {
   gap: 90px;
   font-family: "Inter", sans-serif;
 }
-section_VIII{
+section_VIII {
   display: flex;
   align-items: flex-start;
   background-color: #000;
@@ -734,16 +587,3 @@ section_VIII{
   justify-content: flex-end;
   display: inline-flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
